@@ -1,0 +1,40 @@
+html,
+body {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 50%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(170, 213, 216);
+}
+
+td {
+  width: 50%;
+  border: 1px solid gray;
+}
+
+td > * {
+  margin: 10px auto;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}

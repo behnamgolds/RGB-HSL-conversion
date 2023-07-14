@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB HSL converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <table>
+      <head>
+        <tr>
+          <th>RGB</th>
+          <th>Calculated HSL</th>
+        </tr>
+      </head>
+      <body>
+        <tr>
+          <td class="rgb-representation">rgb(0, 255, 255)</td>
+          <td class="hsl-representation">hsl(180 100% 50%)</td>
+        </tr>
+        <tr>
+          <td><div class="box rgb-box"></div></td>
+          <td><div class="box hsl-box"></div></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Pick color for RGB Box</p>
+            <input type="color" class="color-picker" />
+          </td>
+          <td>Scroll Mouse wheel on this box to change brightness</td>
+        </tr>
+      </body>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
